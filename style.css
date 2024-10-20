@@ -131,6 +131,7 @@ footer{
     h1 {
         font-size: 24px; 
         margin-top: 8px;
+        text-align: center;
     }
 
     h3 {
@@ -159,5 +160,6 @@ footer{
         margin-top: 5%;
         font-size: 12px; /* Diminuindo o tamanho do texto do rodapé */
         text-align: center;
+        margin-bottom: 4px;
     }
 }
