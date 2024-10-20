@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+table{
+    margin-top: 13px;
+    margin-left: 14px;
+}
+
+td:hover{
+    transform: scale(1.4);
+}
+
+.verde{
+    background-color: rgb(160, 250, 160);
+    color: #166b04;
+    border: 1px solid #27ee15;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.vermelho{
+    background-color: rgb(248, 175, 175);
+    color: #630303;
+    border: 1px solid #ee1c15;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.azul{
+    background-color: rgb(184, 184, 250);
+    color: #030d61;
+    border: 1px solid #0817e9;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.violeta{
+    background-color: rgb(190, 135, 223);
+    color: #3f0352;
+    border: 1px solid #5f057a;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.laranja{
+    background-color: #f0a486;
+    border: 1px solid #e05606;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.cinza{
+    background-color: rgb(187, 183, 183);
+    border: 1px solid #2f302e;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.rosa{
+    background-color: rgb(240, 129, 184);
+    color: #83075e;
+    border: 1px solid #ec06a0;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.roxo{
+    background-color: rgb(243, 89, 243);
+    border: 1px solid #c610d6;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.amarelo{
+    background-color: rgb(241, 241, 89);
+    border: 1px solid #b3b006;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+.verde-claro{
+    background-color: rgb(181, 241, 91);
+    border: 1px solid #18ce08;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+}
+
+h1{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 32px;
+}
+
+
+/*os numeros sobrescritos*/
+h5{
+    margin-right: 54px;
+    margin-top: 0;
+    vertical-align: super;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*letra*/
+h3{
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*nome do elemento*/
+h4{
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    table {
+        margin-top: 10px;
+        margin-left: 5px; /* Reduzindo as margens */
+    }
+
+    h1 {
+        font-size: 24px; /* Diminuindo o tamanho do título */
+    }
+
+    h3 {
+        font-size: 12px; /* Ajustando o tamanho do subtítulo */
+    }
+
+    h4 {
+        font-size: 10px; /* Diminuindo o nome do elemento */
+    }
+
+    td:hover {
+        transform: scale(1.2); /* Reduzindo o efeito de hover */
+    }
+
+    /* Reduzindo as sombras para não sobrecarregar a tela pequena */
+    .verde, .vermelho, .azul, .violeta, .laranja, .cinza, .rosa, .roxo, .amarelo, .verde-claro {
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    footer {
+        margin-top: 5%;
+        font-size: 12px; /* Diminuindo o tamanho do texto do rodapé */
+    }
+}
